@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #330033;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#hero {
+    background: url('magic-background.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #2c2c2c;
+}
+
+.spell-list {
+    display: flex;
+    gap: 20px;
+}
+
+.spell {
+    background-color: #4d004d;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Black Magic Styles */
+.spell.dark {
+    background-color: #000000;
+    border: 1px solid #ff0000;
+    color: #ff4d4d;
+}
+
+.disclaimer {
+    font-size: 0.9em;
+    color: #ff4d4d;
+    margin-top: 10px;
+}
